@@ -62,6 +62,7 @@ public class BooksController {
 	}
 	@GetMapping("/name")
 	public String searchByName(Books b, ModelMap m,@RequestParam("name") String name) {
+		
 		List<Books> bb=service.findByName(name);
 		m.put("name", bb);
 		return "names";

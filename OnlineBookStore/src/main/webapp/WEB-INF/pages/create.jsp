@@ -19,21 +19,31 @@ font-style: italic;
 <tr>
 	<td><form:hidden path="id"/></td>
 </tr>
+<div class="form-group">
 <tr>
-	<td>Book Name: <form:input path="bookName"/><form:errors path="bookName" cssClass="error"/></td>
+	<td>Book Name: <form:input path="bookName" class="form-control"/><form:errors path="bookName" cssClass="error"/></td>
 </tr>
+</div>
+<div class="form-group">
 <tr>
-	<td>Author Name: <form:input path="authorName"/><form:errors path="authorName" cssClass="error"/></td>
+	<td>Author Name: <form:input path="authorName" class="form-control"/><form:errors path="authorName" cssClass="error"/></td>
 </tr>
+</div>
+<div class="form-group">
 <tr>
-	<td>Status: <form:input path="status"/><form:errors path="status" cssClass="error"/></td>
+	<td>Status: <form:input path="status" class="form-control"/><form:errors path="status" cssClass="error"/></td>
 </tr>
+</div>
+<div class="form-group">
 <tr>
-	<td>Price: <form:input path="price"/><form:errors path="price" cssClass="error"/></td>
+	<td>Price: <form:input path="price" class="form-control"/><form:errors path="price" cssClass="error"/></td>
 </tr>
+</div>
+<div class="form-group">
 <tr>
-	<td>ISBN: <form:input path="isbn"/><form:errors path="isbn" cssClass="error"/></td>
+	<td>ISBN: <form:input path="isbn" class="form-control"/><form:errors path="isbn" cssClass="error"/></td>
 </tr>
+</div>
 	<th colspan="2">
 		<input type="submit" value="submit">
 	</th>

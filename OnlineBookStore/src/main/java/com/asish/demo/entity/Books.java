@@ -50,5 +50,7 @@ public class Books {
 	@Column
 	@Min(100000) @Max(10000000)
 	private int isbn;
+	
+	
 
 }
